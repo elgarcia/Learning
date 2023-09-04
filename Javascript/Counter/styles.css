@@ -1,0 +1,15 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#value
+{
+    margin-bottom: 20px;
+    font-size: 70px;
+}
