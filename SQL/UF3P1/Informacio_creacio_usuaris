@@ -1,0 +1,13 @@
+En aquest document el que fem es crear una series d'usuaris i donarlis els permissos necessaris per treballar en la nostra base de dades focalitzada en una pagina web per a una tenda online.
+
+Primer creeem 10 usuaris on els dos primers representaran els Directors i subdirectors, despres un par més per tenir dos treballadors i per ultim uns clients. Com es una primera versió basica, no li posarem passwords als usuaris.
+
+Seguidament procedim a crear els rols d'administrador, manteniment i client, que seran donats de la seguent manera:
+    - Administrador: Director, subdirector.
+    - Maneniment: Empleat.
+    - Client: Usuari.
+
+Per ultim donarem una serie de permisos als empleats perque pugin modificar els elements de la base de dades en cas que faci falta:
+    - A l'empleada Alba li donarem tots els permisos.
+    - A l'empleat Alberto li donarem nomes els privilegis de UPADTE, ALTER i SELECT per tal de que revisi les dades entrades a Alba.
+    - Despres li treurem els permisos de DELETE i SELECT, ja que li donarem el treball de revisar les dades entrades a Alberto.

@@ -1,0 +1,30 @@
+CONTE(id_pagina, id_pagina_enllaçada)
+	on {id_pagina} referencia a PAGINA
+	on {id_pagina_enllaçada} referencia a PAGINA
+COMPRA(nom_usuari, id_producte, numero_tarjeta, validacio)
+	on {nom_usuari} referencia a USUARI
+	on {id_producte} referencia a  PRODUCTE
+	on {numero_tarjeta} referencia a ENTITAT_BANCARIA
+DEPARTAMENT(id_departament, nom, ubicació)
+DISTRIBUCIO(id_departament, numero_vehicle)
+	on {id_departament} referencia a DEPARTAMENT
+ENTITAT_BANCARIA(numero_tarjeta, caducitat, cvv, numero_compte, nom_entitat, titular)
+LOGISTICA(id_departament, numero_magatzem, capacitat)
+	on {id_departament} referencia a DEPARTAMENT
+MANTENIMENT(id_departament, numero_oficina)
+	on {id_departament} referencia a DEPARTAMENT
+PAGINA(id_pagina, nom, url, fitxer, data_darrer_manteniment, id_departament, data)
+	on {id_departament} referencia a MANTENIMENT
+PRODUCTE(id_producte, nom, preu, descripcio, id_pagina, id_departament)
+	on {id_pagina} referencia a PAGINA
+	on {id_departament} referencia a LOGISTICA
+REPARTEIX(matricula_vehicle, id_producte, id_departament, id_reparticio)
+	on {matricula_vehicle} referencia a VEHICLE
+	on {id_producte} referencia a PRODUCTE
+	on {id_departament} referencia a DISTRIBUCIO
+TREBALLADOR(id_treballador, dni, nom, cognom, data_naixement, correu, telefon,  id_departament, id_supervisor)
+	on {id_departament} referencia a DEPARTAMENT
+	on {id_supervisor} referencia a TREBALLADOR
+USUARI(nom_usuari, contrasenya, nom, cognom, sexe, email, direccio, telefon, data_naixement, data_alta, id_pagina)
+	on {id_pagina} referencia a PAGINA
+VEHICLE(id_vehicle, matricula, kms)

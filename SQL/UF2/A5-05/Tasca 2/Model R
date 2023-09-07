@@ -1,0 +1,11 @@
+ADMINISTRA(nom_cientific_planta, nom_adob, nom_estacio, quantitat)
+	on {nom_cientific_planta} referencia a PLANTA
+	on {nom_adob} referencia a ADOB
+	on {nom_estacio} referencia a ESTACIO
+ADOB(nom, marca, tipus)
+ESTACIO(nom)
+EXTERIOR(nom_cientific, tipus)
+	on {nom_cientific} referencia a PLANTA
+INTERIOR(nom_cientific, ubicacio, temperatura)
+	on {nom_cientific} referencia a PLANTA
+PLANTA(nom_cientific, nom_popular, estacio_floracio)

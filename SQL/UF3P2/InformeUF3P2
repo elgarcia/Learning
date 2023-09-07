@@ -1,0 +1,22 @@
+En aquest cas per fer procediments fent us de totes les estructures de control i les eines vistes a clase i per que siguin utils per a la nostra base de dades
+hem decicdit fer els seguents procediments;
+
+- totalInventario : aquest procediment ens serveix per veure el total de productes que tenim a la nostra tenda. Com es un procediment sencill no fem us de cap eina
+    nova.
+- cerca : en aquest introduim com a paramatre un varchar que indicara el producte que volem trobar a la nostra tenda, com a resultat ens retornara l'id del producte
+    i el nom.
+- productesMarca : es un procediment similar al anterior comentat, en aquest cas introduim com a paramatre un altre varchar, que indicara la marca dels productes i
+    ens retornara el numero total de productes d'aquesta marca, bastant util per l'us de filtres.
+- usuarisRegistrats : un procediment que ens retornara el numero total d'usuaris registrats pel parametre que li pasem.
+- afegirDepartament : en aquest procediment mes complexe utilitzem l'us de la funcio last_insert_id() per tal de que ens retorni les dades del producte que afegirem amb
+    les dades que pasem per parametre, que coincidiran amb la id que ens retorni la funcio mencionada.
+- afegirProducte : similar a l'anterior fem us de mes parametres per afegir un producte nou i que ens retorni totes les dades del producte que coincideixi amb l'ultim id
+    inserit.
+- filtreUsuari : aquest procediment utlitza un cursor i una estructura de loop per tal de recorrer tots els usuaris i que ens mostri els que coincideixen amb el varchar
+    que entrem per paramtre.
+- capacitatMagatzem : en aquest procediment ens demanaran un numero, que indicara el numero de magatzem, i ens retornara el numero del magatzem, la capacitat que te
+    i un missatge indicant la seva capacitat segons el que ens doni l'estructura case.
+- ultimsProductesAfegits : gracies a variables i una estructura while aquest procediment ens retornara els ultims 10 productes afegits i totes les seves dades.
+- pujarPreu : aquest ultim procediment ens ajuda a actualitzar fent us de la estructura de control repeat i updates de tots els productes que tenim a la base de dades.
+
+Finalmente fem us dels procediments creats per comprobar que funcionen correctament.
