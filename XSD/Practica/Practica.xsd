@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="jocsOlimpics">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="edicio" type="xs:string"></xs:element>
+                <xs:element name="pais" type="xs:string"></xs:element>
+                <xs:element name="web" type="xs:string"></xs:element>
+                <xs:element name="participants">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="paisos" type="comptador"></xs:element>
+                            <xs:element name="esportistes" type="comptador"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="data" maxOccurs="2">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="valor" type="xs:date"></xs:element>
+                        </xs:all>
+                        <xs:attribute name="id" type="tipus_id"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="seus">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="seu">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="acollits" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:all>
+                                                    <xs:element name="acollit"></xs:element>
+                                                </xs:all>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="ciutat" type="xs:string" minOccurs="1"></xs:element>
+                                        <xs:element name="edifici" type="xs:string" minOccurs="0"></xs:element>
+                                        <xs:element name="funcionalitat" type="xs:string" minOccurs="0"></xs:element>
+                                        <xs:element name="capacitat" type="comptador" minOccurs="0"></xs:element>
+                                        <xs:element name="esport" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="anyInici" type="any"></xs:element>
+                                                    <xs:element name="data" maxOccurs="2">
+                                                        <xs:complexType>
+                                                            <xs:all>
+                                                                <xs:element name="valor" type="xs:date"></xs:element>
+                                                            </xs:all>
+                                                            <xs:attribute name="id" type="tipus_id"></xs:attribute>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="categories">
+                                                        <xs:complexType>
+                                                            <xs:all>
+                                                                <xs:element name="categoria">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="sexe" maxOccurs="2">
+                                                                                <xs:complexType>
+                                                                                    <xs:sequence>
+                                                                                        <xs:element name="medalla" maxOccurs="3">
+                                                                                            <xs:complexType>
+                                                                                                <xs:sequence>
+                                                                                                    <xs:element name="pais" type="xs:string"></xs:element>
+                                                                                                    <xs:element name="esportistes">
+                                                                                                        <xs:complexType>
+                                                                                                            <xs:sequence>
+                                                                                                                <xs:element name="nom" type="xs:string" maxOccurs="unbounded"></xs:element>
+                                                                                                            </xs:sequence>
+                                                                                                        </xs:complexType>
+                                                                                                    </xs:element>
+                                                                                                    <xs:element name="data" maxOccurs="1">
+                                                                                                        <xs:complexType>
+                                                                                                            <xs:all>
+                                                                                                                <xs:element name="valor" type="xs:date"></xs:element>
+                                                                                                            </xs:all>
+                                                                                                        </xs:complexType>
+                                                                                                    </xs:element>
+                                                                                                    <xs:element name="hora" type="xs:time"></xs:element>
+                                                                                                    <xs:element name="lloc" type="xs:string"></xs:element>
+                                                                                                </xs:sequence>
+                                                                                                <xs:attribute name="id" type="medalla" use="required"></xs:attribute>
+                                                                                            </xs:complexType>
+                                                                                        </xs:element>
+                                                                                    </xs:sequence>
+                                                                                    <xs:attribute name="id" type="sexe" use="required"></xs:attribute>
+                                                                                </xs:complexType>
+                                                                            </xs:element>
+                                                                        </xs:sequence>
+                                                                        <xs:attribute name="nom" type="xs:string" use="required"></xs:attribute>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:all>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="nom" type="xs:string" use="required"></xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="nom" type="xs:string" use="required"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:all>
+                        <xs:attribute name="competicions" type="competicions" use="required"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="tipus_id">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="obertura|clausura|inici|final"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="comptador">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1" />
+            <xs:maxInclusive value="22000" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="competicions">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="Si|No"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="sexe">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="F|M|Mix"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="medalla">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="Or|Argent|Bronze"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="any">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:pattern value="[0-9]{4}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

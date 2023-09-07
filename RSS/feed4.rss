@@ -1,0 +1,76 @@
+<rss version="2.0">
+    <channel>
+        <title>Botigues</title>
+        <link>https://www.portaventuraworld.com/ca/botigues</link>
+        <description>A PortAventura Park, no només pots viure emocions intenses i descarregar adrenalina d’una manera insuperable; també tens l’oportunitat de comprar durant la visita!</description>
+        <skipDays>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>            
+        </skipDays>
+        <category>Botigues</category>
+        <pubDate>Sun, 26 Feb 2023 11:00:00 +0100</pubDate>
+        <language>ca</language>
+        <managingEditor>elgarcia@alumnat.copernic.cat</managingEditor>
+        <item>
+            <title>
+                <![CDATA[ <h1>Cal Caramel</h1>]]>
+            </title>
+            <link>https://www.portaventuraworld.com/ca/botigues/dolcos-mes</link>
+            <description>
+                <![CDATA[ <p><img src="https://media.portaventuraworld.com/mediaManager/image/c8bf4d72589c14e9bd4944597faaa1083ba3488fdad7cde7288415989eb653c2.png?tx=ar_2.00,c_crop/w_983,h_499,c_fit">
+                    <p> Alguna vegada has somiat en un món de dolços i llaminadures? Doncs és ben real! A Cal Caramel hi trobaràs un assortiment tan gran de llaminadures que no sabràs quines triar.</p>]]>
+            </description>
+            <category >Mediterrània/Llaminadures</category>
+            <guid isPermaLink="false">001BO</guid>
+            <author>elgarcia@alumnat.copernic.cat</author>
+            <pubDate>Sun, 26 Feb 2023 09:40:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[ <h1>Superdry</h1>]]>
+            </title>
+            <link>https://www.portaventuraworld.com/ca/botigues/surf-paradise</link>
+            <description>
+                <![CDATA[ <p> <img src="https://media.portaventuraworld.com/mediaManager/image/a1612b24ba331c3f5f5b4f8065168234be9fc63d6add32c8619691c1dd72db31.jpg?tx=ar_2.00,c_crop/w_983,h_499,c_fit">
+                        <p>A PortAventura World també hi ha lloc per a la moda i les compres! A la botiga Superdry hi ha la roba més cool del moment: samarretes, polos, pantalons, motxilles… Busquis el que busquis,
+                             aquí ho trobaràs!</p>]]>
+            </description>
+            <category >Polynesia/Tienda de golosinas</category>
+            <guid isPermaLink="false">002BO</guid>
+            <author>elgarcia@alumnat.copernic.cat</author>
+            <pubDate>Sun, 26 Feb 2023 10:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[ <h1>Abby Star Studio</h1>]]>
+            </title>
+            <link>https://www.portaventuraworld.com/ca/botigues/abby-star-studio</link>
+            <description>
+                <![CDATA[ <p> <img src="https://media.portaventuraworld.com/mediaManager/image/b3cf25c354ff757e2e259f15e467abd0610f4c7181f40f87e3096529f2b32584.jpg?tx=ar_2.00,c_crop/w_983,h_499,c_fit">
+                    <p>Vine a visitar l’Abby Star Studio a SésamoAventura! A dins de l’estudi, et convertiràs en una fada! No t’hi pensis i visita un espai únic, on podràs emprovar-te els fantàstics vestits 
+                        de l’Abby Cadabby i pintar-te amb el seu maquillatge de fantasia, amb un munt de colors per crear un look complet.</p>]]>
+            </description>
+            <category >SésamoAventura/Fotografia</category>
+            <guid isPermaLink="false">003BO</guid>
+            <author>elgarcia@alumnat.copernic.cat</author>
+            <pubDate>Sun, 26 Feb 2023 10:20:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[ <h1>Kambuha</h1>]]>
+            </title>
+            <link>https://www.portaventuraworld.com/ca/botigues/kambuha</link>
+            <description>
+                <![CDATA[ <p> <img src="https://media.portaventuraworld.com/mediaManager/image/47e70310930f4e86667b98a64039ff4422902582fa2b0221ff4a4c28a8570d74.jpg?tx=ar_2.00,c_crop/w_983,h_499,c_fit">
+                    <p>Animals de peluix exòtics, roba amb estampats tribals i objectes de decoració dels llocs més remots són algunes de les coses que hi trobaràs. Tot això, sense haver de travessar el mar!</p>]]>
+            </description>
+            <category >China/Souvenirs</category>
+            <guid isPermaLink="false">004BO</guid>
+            <author>elgarcia@alumnat.copernic.cat</author>
+            <pubDate>Sun, 26 Feb 2023 11:00:00 +0100</pubDate>
+        </item>
+    </channel>
+</rss>

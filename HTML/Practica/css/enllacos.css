@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: aqua;
+    text-decoration:none;
+}
+
+.logo{
+    width: 100%;
+    display:flex;
+    position: relative;
+    justify-content: flex-start;
+    background-image:url(../img/background.jpg);
+    background-size: cover;
+    color: white;
+    padding: 0px;
+    flex: 0.95;
+}
+
+.titol-pagina{
+    font-family: Verdana;
+    display: flex;
+    font-size: 55px;
+    position: relative;
+    left: 60%;
+    justify-content: center;
+    padding: 30px;
+    color: black;
+}
+
+.logo img{
+    width: 10%;
+    padding: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 0px;
+    background-color:darkorchid;
+    width: 100%;
+}
+
+.element-menu{
+    margin-right: 100px;
+    font-family: Verdana;
+    font-size: 20px;
+    display: block;
+}
+
+.content{
+    padding: 10px;
+    width: 100%;
+}
+
+#descripcio{
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+}
+
+#enllacos{
+    font-family: Verdana;
+    font-size: 30px;
+}
+
+.interes{
+    list-style-image: url(../img/icono-link.png);
+    background-color: white;
+}
+
+.peu{
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    background-color: darkorchid;
+    justify-items:center;
+    font-family: Verdana;
+    font-size: 10px;
+    text-align: center;
+    padding: 1px;
+}

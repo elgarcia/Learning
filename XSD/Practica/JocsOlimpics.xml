@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<jocsOlimpics id="Tokio 2020" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/fta/Dropbox/Curs_2021_2022/M04/UF1/JocsOlimpics.xsd">
+  <edicio>XXXII</edicio>
+  <pais>Japó</pais>
+  <web>https://olympics.com/tokyo-2020/es/</web>
+  <participants>
+    <paisos>205</paisos>
+    <esportistes>11326</esportistes>
+  </participants>
+  <data id="obertura">
+    <valor>2021-07-23</valor>
+  </data>
+  <data id="clausura">
+    <valor>2021-08-08</valor>
+  </data>
+  <!--Seus on no s'han realitzat competicions-->
+  <seus competicions="No">
+    <seu nom="Estadi Olímpic">
+      <acollits>
+        <acollit>Cerimònia d'obertura</acollit>
+        <acollit>Cerimònia de clausura</acollit>
+      </acollits>
+      <ciutat>Tokio</ciutat>
+      <edifici>Estadi</edifici>
+      <funcionalitat>Estadi d'esdeveniments esportius</funcionalitat>
+    </seu>
+    <seu nom="Hotel Imperial">
+      <acollits>
+        <acollit>COI</acollit>
+      </acollits>
+      <ciutat>Tokio</ciutat>
+      <edifici>Hotel</edifici>
+      <funcionalitat>Hotel</funcionalitat>
+    </seu>
+    <seu nom="Harumi Futō">
+      <acollits>
+        <acollit>Vila olímpica</acollit>
+      </acollits>
+      <ciutat>Tokio</ciutat>
+      <edifici>Zona residencial</edifici>
+      <funcionalitat>Barri residencial</funcionalitat>
+    </seu>
+    <seu nom="Tokyo Big Sight">
+      <acollits>
+        <acollit>Centre de mitjans</acollit>
+        <acollit>Centre internacional de premsa</acollit>
+      </acollits>
+      <ciutat>Ariake</ciutat>
+      <edifici>Centre d'exposicions internacional de Tokio</edifici>
+      <funcionalitat>Allotjar exposicions i convencions</funcionalitat>
+    </seu>
+  </seus>
+  <!--Seus on s'han realitzat competicions-->
+  <seus competicions="Si">
+    <seu nom="Plaça esportiva Musashino Forest">
+      <ciutat>Tokio</ciutat>
+      <capacitat>7200</capacitat>
+      <esport nom="Bàdminton">
+        <anyInici>1988</anyInici>
+        <data id="inici">
+          <valor>2021-07-24</valor>
+        </data>
+        <data id="final">
+          <valor>2021-08-02</valor>
+        </data>
+        <categories>
+          <categoria nom="Individual">
+            <sexe id="M">
+              <medalla id="Or">
+                <pais>Dinamarca</pais>
+                <esportistes>
+                  <nom>Viktor Axelsen</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-08-02</valor>
+                </data>
+                <hora>20:50:00</hora>
+                <lloc>Pista 1</lloc>
+              </medalla>
+              <medalla id="Argent">
+                <pais>Xina</pais>
+                <esportistes>
+                  <nom>Chen Long</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-08-02</valor>
+                </data>
+                <hora>20:50:00</hora>
+                <lloc>Pista 1</lloc>
+              </medalla>
+              <medalla id="Bronze">
+                <pais>Indonèsia</pais>
+                <esportistes>
+                  <nom>Anthony Ginting</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-08-02</valor>
+                </data>
+                <hora>20:00:00</hora>
+                <lloc>Pista 1</lloc>
+              </medalla>
+            </sexe>
+            <sexe id="F">
+              <medalla id="Or">
+                <pais>Xina</pais>
+                <esportistes>
+                  <nom>Yu Fei Chen</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-08-01</valor>
+                </data>
+                <hora>21:20:00</hora>
+                <lloc>Pista 1</lloc>
+              </medalla>
+              <medalla id="Argent">
+                <pais>Xina</pais>
+                <esportistes>
+                  <nom>Tzu-Ying Tai</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-08-01</valor>
+                </data>
+                <hora>21:20:00</hora>
+                <lloc>Pista 1</lloc>
+              </medalla>
+              <medalla id="Bronze">
+                <pais>India</pais>
+                <esportistes>
+                  <nom>Sindhu Pursala</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-08-01</valor>
+                </data>
+                <hora>20:30:00</hora>
+                <lloc>Pista 1</lloc>
+              </medalla>
+            </sexe>
+          </categoria>
+          <categoria nom="Parelles">
+            <sexe id="M">
+              <medalla id="Or">
+                <pais>Xina</pais>
+                <esportistes>
+                  <nom>Yang Lee</nom>
+                  <nom>Chi-Lin Wang</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-07-31</valor>
+                </data>
+                <hora>20:30:00</hora>
+                <lloc>Pista 1</lloc>
+              </medalla>
+              <medalla id="Argent">
+                <pais>Xina</pais>
+                <esportistes>
+                  <nom>Jun Hui Li</nom>
+                  <nom>Yu Chen Liu</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-07-31</valor>
+                </data>
+                <hora>20:30:00</hora>
+                <lloc>Pista 1</lloc>
+              </medalla>
+              <medalla id="Bronze">
+                <pais>Malasia</pais>
+                <esportistes>
+                  <nom>Aaron Chia</nom>
+                  <nom>Wooi Yik Soh</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-07-31</valor>
+                </data>
+                <hora>19:40:00</hora>
+                <lloc>Pista 1</lloc>
+              </medalla>
+            </sexe>
+            <sexe id="F">
+              <medalla id="Or">
+                <pais>Indonèsia</pais>
+                <esportistes>
+                  <nom>Apriyani Rahayu</nom>
+                  <nom>Polii Greysia</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-08-02</valor>
+                </data>
+                <hora>13:50:00</hora>
+                <lloc>Pista 1</lloc>
+              </medalla>
+              <medalla id="Argent">
+                <pais>Xina</pais>
+                <esportistes>
+                  <nom>Qing Chen Chen</nom>
+                  <nom>Yi Fan Jia</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-08-02</valor>
+                </data>
+                <hora>13:50:00</hora>
+                <lloc>Pista 1</lloc>
+              </medalla>
+              <medalla id="Bronze">
+                <pais>Corea</pais>
+                <esportistes>
+                  <nom>Soyeong Kim</nom>
+                  <nom>Heeyong Kong</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-08-02</valor>
+                </data>
+                <hora>13:00:00</hora>
+                <lloc>Pista 1</lloc>
+              </medalla>
+            </sexe>
+            <sexe id="Mix">
+              <medalla id="Or">
+                <pais>Xina</pais>
+                <esportistes>
+                  <nom>Dong Ping Huang</nom>
+                  <nom>Yi Lyu Wang</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-07-30</valor>
+                </data>
+                <hora>15:30:00</hora>
+                <lloc>Pista 1</lloc>
+              </medalla>
+              <medalla id="Argent">
+                <pais>Xina</pais>
+                <esportistes>
+                  <nom>Qiong Ya Huang</nom>
+                  <nom>Si wei Zheng</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-07-30</valor>
+                </data>
+                <hora>15:30:00</hora>
+                <lloc>Pista 1</lloc>
+              </medalla>
+              <medalla id="Bronze">
+                <pais>Japó</pais>
+                <esportistes>
+                  <nom>Arisa Higashino</nom>
+                  <nom>Yuta Watanabe</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-07-30</valor>
+                </data>
+                <hora>10:30:00</hora>
+                <lloc>Pista 1</lloc>
+              </medalla>
+            </sexe>
+          </categoria>
+        </categories>
+      </esport>
+    </seu>
+    <seu nom="Centre de gimnàstica d'Ariake">
+      <ciutat>Tokio</ciutat>
+      <capacitat>12000</capacitat>
+      <esport nom="Gimnàstica rítmica">
+        <anyInici>1984</anyInici>
+        <data id="inici">
+          <valor>2021-08-07</valor>
+        </data>
+        <data id="final">
+          <valor>2021-08-08</valor>
+        </data>
+        <categories>
+          <categoria nom="Individual">
+            <sexe id="F">
+              <medalla id="Or">
+                <pais>Israel</pais>
+                <esportistes>
+                  <nom>Linoy Ashram</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-08-07</valor>
+                </data>
+                <hora>19:20:00</hora>
+                <lloc>Pista central</lloc>
+              </medalla>
+              <medalla id="Argent">
+                <pais>Rusia</pais>
+                <esportistes>
+                  <nom>Dina Averina</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-08-07</valor>
+                </data>
+                <hora>19:20:00</hora>
+                <lloc>Pista central</lloc>
+              </medalla>
+              <medalla id="Bronze">
+                <pais>Bielorrusia</pais>
+                <esportistes>
+                  <nom>Alina Harnasko</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-08-07</valor>
+                </data>
+                <hora>19:20:00</hora>
+                <lloc>Pista central</lloc>
+              </medalla>
+            </sexe>
+          </categoria>
+          <categoria nom="equips">
+            <sexe id="F">
+              <medalla id="Or">
+                <pais>Bulgària</pais>
+                <esportistes>
+                  <nom>Simona Dyankova</nom>
+                  <nom>Stefani Kiryakova</nom>
+                  <nom>Madlen Radukanova</nom>
+                  <nom>Laura Traets</nom>
+                  <nom>Erika Zafirova</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-08-08</valor>
+                </data>
+                <hora>12:30:00</hora>
+                <lloc>Pista central</lloc>
+              </medalla>
+              <medalla id="Argent">
+                <pais>Rusia</pais>
+                <esportistes>
+                  <nom>Anastasia Bliznyuk</nom>
+                  <nom>Anastasiia Maksimova</nom>
+                  <nom>Angelina Shkatova</nom>
+                  <nom>Anastasiia Tatareva</nom>
+                  <nom>Alisa Tischenko</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-08-08</valor>
+                </data>
+                <hora>12:30:00</hora>
+                <lloc>Pista central</lloc>
+              </medalla>
+              <medalla id="Bronze">
+                <pais>Italia</pais>
+                <esportistes>
+                  <nom>Martina Centofanti</nom>
+                  <nom>Agnese Duranti</nom>
+                  <nom>Alessia Maurelli</nom>
+                  <nom>Daniela Mogurean</nom>
+                  <nom>Martina Santandrea</nom>
+                </esportistes>
+                <data>
+                  <valor>2021-08-08</valor>
+                </data>
+                <hora>12:30:00</hora>
+                <lloc>Pista central</lloc>
+              </medalla>
+            </sexe>
+          </categoria>
+        </categories>
+      </esport>
+    </seu>
+  </seus>
+</jocsOlimpics>

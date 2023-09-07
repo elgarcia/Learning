@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="preus">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="preu" type="tipodecimal" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="tipodecimal">
+        <xs:restriction base="xs:decimal">
+            <xs:fractionDigits value="2"></xs:fractionDigits>
+            <xs:totalDigits value="3"></xs:totalDigits>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="fitxes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="fitxa">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nom" type="xs:string"></xs:element>
+                            <xs:element name="clau" type="tipusclau"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="tipusclau">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="4"></xs:minLength>
+            <xs:maxLength value="10"></xs:maxLength>
+            <xs:pattern value="[a-zA-Z0-9]"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

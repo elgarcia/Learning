@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <llibre>
+        <codiLlibre></codiLlibre>
+        <titol></titol>
+        <autor></autor>
+        <editorial></editorial>
+        <edicio></edicio>
+        <ISBN></ISBN>
+        <numPagines></numPagines>
+    </llibre>
+    <llibre>
+        <codiLlibre></codiLlibre>
+        <titol></titol>
+        <autor></autor>
+        <editorial></editorial>
+        <edicio></edicio>
+        <ISBN></ISBN>
+        <numPagines></numPagines>
+    </llibre>
+</biblioteca>

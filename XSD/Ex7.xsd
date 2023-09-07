@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="clau">
+        <xs:complexType>
+            <xs:attribute name="restr" type="cadena"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="cadena">
+        <xs:restriction base="xs:string">
+            <xs:length value="12"></xs:length>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

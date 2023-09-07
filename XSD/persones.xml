@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persones>
+    <persona>
+        <nom>Paula</nom>
+        <ciutat>París</ciutat>
+        <edat>23</edat>
+    </persona>
+    <persona>
+        <nom>Pepo</nom>
+        <ciutat>Roma</ciutat>
+        <edat>13</edat>
+    </persona>
+</persones>

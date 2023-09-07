@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pressupost>
+    <client encarrec="reparacio">
+        <nom>Jaume Ferrer</nom>
+        <dni>53349877G</dni>
+        <telefon>655722723</telefon>
+    </client>
+    <cotxe>
+        <model>Seat Ibiza</model>
+        <color>Blanc</color>
+        <any>2010</any>
+    </cotxe>
+    <data>12/09/2022</data>
+    <taller>Terrassa Nord</taller>
+</pressupost>

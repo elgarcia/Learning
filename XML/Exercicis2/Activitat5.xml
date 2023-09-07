@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ticket>
+    <info_local>
+        <nom_local>Restaurante McDonald's</nom_local>
+        <lloc_local>Aeropuerto Madrid Barajas T4</lloc_local>
+        <zona_local>Zona Aire Local T1 14</zona_local>
+        <localitat>28042 Madrid</localitat>
+    </info_local>
+    <info_restaurant>
+        <nom_empresa>McDonald's Sistemas de España, INC</nom_empresa>
+        <adreca_empresa>C/ Somera 5</adreca_empresa>
+        <codi_postal>28023 Madrid</codi_postal>
+        <CIF>C. I. F N-4001649-E</CIF>
+    </info_restaurant>
+    <factura>
+        <titol>Factura simplificada</titol>
+        <numero>Num: 0451201306202400086</numero>
+        <informacio_factura caja="24" fecha="20/06/2013" hora="14.:36">Pedido: 0086</informacio_factura>
+        <llista>
+            <producte>
+                <informacio_producte>UND ARTICULO        TOTAL</informacio_producte>
+                <article num="1">1  TOMAR               0.00</article>
+                <article num="2">1 COCA MEN GR          0.00</article>
+                <article num="3">1 MENU GR CUARTO       6.90</article>
+                <article num="2">1 CHICK-CHEESE         1.30</article>
+                <article num="2">1 PAT LUXE MENU GR     0.00</article>
+            </producte>
+            <tipus_servei>Para tomar</tipus_servei>
+            <total_iva>TOTAL (IVA Incluido)             8.20</total_iva>
+            <tcr>TCR    (8.20)                          8.20</tcr>
+        </llista>
+        <IVA>IVA        10.00% de      7.45 =           0.75</IVA>  
+    </factura>
+    <final_tiquet>      GRACIAS POR SU VISITA       </final_tiquet>
+</ticket>

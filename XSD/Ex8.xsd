@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="mes">
+        <xs:complexType>
+            <xs:attribute name="restr" type="numero"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="numero">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:minExclusive value="1"></xs:minExclusive>
+            <xs:maxExclusive value="12"></xs:maxExclusive>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

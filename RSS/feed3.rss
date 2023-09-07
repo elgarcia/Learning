@@ -1,0 +1,76 @@
+<rss version="2.0">
+    <channel>
+        <title>Restaurants</title>
+        <link>https://www.portaventuraworld.com/ca/restaurants</link>
+        <description>En aquest apartat presentarem 4 restaurants de diferents zones del parc</description>
+        <skipHours>
+            <hour>23</hour>
+            <hour>24</hour>
+            <hour>1</hour>
+        </skipHours>
+        <category>Restaurants</category>
+        <pubDate>Mon, 27 Feb 2023 11:30:00 +0100</pubDate>
+        <language>ca</language>
+        <managingEditor>elgarcia@alumnat.copernic.cat</managingEditor>
+        <item>
+            <title>
+                <![CDATA[ <h1>Racó de Mar</h1>]]>
+            </title>
+            <link>https://www.portaventuraworld.com/ca/restaurants/raco-de-mar</link>
+            <description>
+                <![CDATA[ <p><img src="https://media.portaventuraworld.com/mediaManager/image/35ffdb914156b8220a301ccdfc0b21739555b4e670c920dfc1228b1ba43947f9.jpg?tx=ar_2.00,c_crop/w_983,h_499,c_fit">
+                    <p> La dieta mediterrània és famosa per ser saludable, però també per ser deliciosa! A Racó de Mar hem seleccionat els grans sabors del Mediterrani per oferir-te un gran viatge gastronòmic: 
+                        des del socarrat d’una paella valenciana fins a una orada al forn o una pizza amb els ingredients més frescos. Nyam, nyam!</p>]]>
+            </description>
+            <category >Mediterrània/Cuina mediterrània/De taula/Menjar apte per a celíacs/Menú adult i menú infantil</category>
+            <guid isPermaLink="false">001RE</guid>
+            <author>elgarcia@alumnat.copernic.cat</author>
+            <pubDate>Mon, 27 Feb 2023 10:00:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[ <h1>Cafetería Bora Bora</h1>]]>
+            </title>
+            <link>https://www.portaventuraworld.com/ca/restaurants/cafeteria-bora-bora</link>
+            <description>
+                <![CDATA[ <p> <img src="https://media.portaventuraworld.com/mediaManager/image/ae9e9ee7c5018b94e3ab548febf46082d95a0510b58f5ecee1b14bc152cc37fa.jpg?tx=ar_2.00,c_crop/w_983,h_499,c_fit">
+                        <p>Just al costat del restaurant Bora Bora hi ha la cafeteria, on pots accedir des de la terrassa principal. Amb una àmplia oferta de productes veggie, com ara batuts de fruites, 
+                            smoothies i sorbets, perquè et puguis refrescar amb els sabors i l’ambient més tropicals.</p>]]>
+            </description>
+            <category >Polynesia/Productes veggie/Snack Bar/Menjar apte per a celíacs</category>
+            <guid isPermaLink="false">002RE</guid>
+            <author>elgarcia@alumnat.copernic.cat</author>
+            <pubDate>Mon, 27 Feb 2023 10:20:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[ <h1>Dagana</h1>]]>
+            </title>
+            <link>https://www.portaventuraworld.com/ca/restaurants/dagana</link>
+            <description>
+                <![CDATA[ <p> <img src="https://media.portaventuraworld.com/mediaManager/image/c2bf88896ffbf3065223adcdbfab7a83f5cf468c029c0d3743575406e9896aad.jpg?tx=ar_2.00,c_crop/w_983,h_499,c_fit">
+                    <p>Les emocions fortes obren la gana, ho sabem. Per això, Dagana t’espera després de Shambhala perquè puguis fer una pausa i gaudir dels plats que més t’agraden: hamburgueses, entrepans calents,
+                         amanides i patates fregides boníssimes. Un pla genial, oi?</p>]]>
+            </description>
+            <category >China/Atraccio forta</category>
+            <guid isPermaLink="false">003RE</guid>
+            <author>elgarcia@alumnat.copernic.cat</author>
+            <pubDate>Mon, 27 Feb 2023 10:40:00 +0100</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[ <h1>La cocina de Epi</h1>]]>
+            </title>
+            <link>https://www.portaventuraworld.com/ca/restaurants/la-cocina-de-epi</link>
+            <description>
+                <![CDATA[ <p> <img src="https://media.portaventuraworld.com/mediaManager/image/9582bc60eadc092796e6a80cce7989904e938f05d0b346b2bd0f4f7487cf3103.jpg?tx=ar_2.00,c_crop/w_983,h_499,c_fit">
+                    <p>Coneixies les habilitats culinàries de l’Epi? Segur que no. Doncs va ser a PortAventura on va decidir obrir el seu restaurant de pizzes, pasta, hamburgueses, pollastre i amanides. I ves a saber. 
+                        Potser és el primer de molts altres restaurants i es convertirà en una gran estrella de la gastronomia.</p>]]>
+            </description>
+            <category >SésamoAventura/Pizza/pasta/hamburgueses/pollastre/amanides/Snack Bar/Menjar apte per a celíacs</category>
+            <guid isPermaLink="false">004RE</guid>
+            <author>elgarcia@alumnat.copernic.cat</author>
+            <pubDate>Mon, 27 Feb 2023 11:00:00 +0100</pubDate>
+        </item>
+    </channel>
+</rss>

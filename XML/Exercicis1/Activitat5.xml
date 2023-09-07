@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gimnas>
+    <persona genere="Dona" id="001">
+        <nom>Pepe</nom>
+        <cognom>Gómez</cognom>
+        <telefon>555555555</telefon>
+        <email>pepe@gmail.com</email>
+        <soci> Si</soci>
+    </persona>
+    <persona genere="Home" id="002">
+        <nom>Paula</nom>
+        <cognom>Sastre</cognom>
+        <telefon>444444444</telefon>
+        <email>paula@gmail.com</email>
+        <soci>No</soci>
+    </persona>
+</gimnas>

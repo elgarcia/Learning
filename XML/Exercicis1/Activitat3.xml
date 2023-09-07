@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <contacte nom="07610">
+        <ciutat nom="Can Pastilla"/>
+        <teléfon num="66666666"/>
+        <email mail="pep@gmail.com"/>
+    </contacte>
+</agenda>

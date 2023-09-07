@@ -1,0 +1,34 @@
+<rss version="2.0">
+    <channel>
+        <title>Horari i calendari</title>
+        <link>https://www.portaventuraworld.com/ca/</link>
+        <description>Horaris i calendari de Port Aventura</description>
+        <skipDays>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+            <day>Sunday</day>
+        </skipDays>
+        <category>Horari/Calendari</category>
+        <pubDate>Mon, 27 Feb 2023 11:30:00 +0100</pubDate>
+        <language>ca</language>
+        <managingEditor>elgarcia@alumnat.copernic.cat</managingEditor>
+        <item>
+            <title>
+                <![CDATA[ <h1>Horari i calendari</h1> ]]>
+            </title>
+            <link>
+                https://www.portaventuraworld.com/ca/horaris-calendari
+            </link>
+            <description>
+                <![CDATA[ <p>En aquest apartat podem visualitzar l'horari i calendari de Port Aventura<p>]]>
+            </description>
+            <guid isPermaLink="false">001HC</guid>
+            <author>elgarcia@alumnat.copernic.cat</author>
+            <pubDate>Mon, 27 Feb 2023 11:00:00 +0100</pubDate>
+        </item>
+        
+    </channel>
+</rss>

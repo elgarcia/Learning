@@ -1,0 +1,301 @@
+
+        <seu_Competicio>
+            <nom>Plaça Esportiva Musashino Forest</nom>
+            <ciutat>Chofu</ciutat>
+            <capacitat>10000</capacitat>
+            <esports>
+                <esport id="esgrima"></esport><!--Atribut per diferenciar els diferents esports -->
+                <esport id="bàdminton">
+                    <any_inauguracio>1992</any_inauguracio>
+                    <data_inici>24/07/2021</data_inici>
+                    <data_final>02/08/2021</data_final>
+                    <categories>
+                        <categoria>
+                            <nom>Individual Masculí</nom>
+                            <sexe>Masculí</sexe>
+                            <medalles>
+                                <medalla>
+                                    <tipus>Or</tipus>
+                                    <pais_guanyador>Dinamarca</pais_guanyador>
+                                    <atletes>Viktor Axelsen</atletes>
+                                    <data_guanya>02/08/2021</data_guanya>
+                                    <hora_competicio>20:50</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                    <medalla>
+                                    <tipus>Plata</tipus>
+                                    <pais_guanyador>República Popular China</pais_guanyador>
+                                    <atletes>Chen Long</atletes>
+                                    <data_guanya>02/08/2021</data_guanya>
+                                    <hora_competicio>20:50</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                <medalla>
+                                    <tipus>Bronze</tipus>
+                                    <pais_guanyador>Indonesia</pais_guanyador>
+                                    <atletes>Anthony Sinisuka Ginting</atletes>
+                                    <data_guanya>02/08/2021</data_guanya>
+                                    <hora_competicio>21:00</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>                                
+                            </medalles>
+                        </categoria>
+                        <categoria>
+                            <nom>Individual Femení</nom>
+                            <sexe>Femení</sexe>
+                            <medalles>
+                                <medalla>
+                                    <tipus>Or</tipus>
+                                    <pais_guanyador>República Popular China</pais_guanyador>
+                                    <atletes>Chen Yufei</atletes>
+                                    <data_guanya>01/08/2021</data_guanya>
+                                    <hora_competicio>13:50</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                    <medalla>
+                                    <tipus>Plata</tipus>
+                                    <pais_guanyador>China Taipéi</pais_guanyador>
+                                    <atletes>Tai Tzu-Ying</atletes>
+                                    <data_guanya>01/08/2021</data_guanya>
+                                    <hora_competicio>13:50</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                <medalla>
+                                    <tipus>Bronze</tipus>
+                                    <pais_guanyador>India</pais_guanyador>
+                                    <atletes>Pusarla Sindhu</atletes>
+                                    <data_guanya></data_guanya>
+                                    <hora_competicio>13:00</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>                                
+                            </medalles>
+                        </categoria>
+                        <categoria>
+                            <nom>Dobles masculí</nom>
+                            <sexe>Masculí</sexe>
+                            <medalles>
+                                <medalla>
+                                    <tipus>Or</tipus>
+                                    <pais_guanyador>China Taipéi</pais_guanyador>
+                                    <atletes>Lee Yang, Wang Chi-Lin</atletes>
+                                    <data_guanya>31/07/2021</data_guanya>
+                                    <hora_competicio>20:30</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                    <medalla>
+                                    <tipus>Plata</tipus>
+                                    <pais_guanyador>República Popular China</pais_guanyador>
+                                    <atletes>Li Junhui, Liu Yuchen</atletes>
+                                    <data_guanya>31/07/2021</data_guanya>
+                                    <hora_competicio>20:30</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                <medalla>
+                                    <tipus>Bronze</tipus>
+                                    <pais_guanyador>Malasia</pais_guanyador>
+                                    <atletes>Aaron Chia, Soh Wool Yik</atletes>
+                                    <data_guanya>31/07/2021</data_guanya>
+                                    <hora_competicio>19:40</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>                                
+                            </medalles>
+                        </categoria>
+                        <categoria>
+                            <nom>Dobles femení</nom>
+                            <sexe>Femení</sexe>
+                            <medalles>
+                                <medalla>
+                                    <tipus>Or</tipus>
+                                    <pais_guanyador>Indonesia</pais_guanyador>
+                                    <atletes>Greysia Polii, Apriyani Rahayu</atletes>
+                                    <data_guanya>02/08/2021</data_guanya>
+                                    <hora_competicio>13:50</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                    <medalla>
+                                    <tipus>Plata</tipus>
+                                    <pais_guanyador>República Popular China</pais_guanyador>
+                                    <atletes>Chen Qingchen, Jia Yifan</atletes>
+                                    <data_guanya>02/08/2021</data_guanya>
+                                    <hora_competicio>13:50</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                <medalla>
+                                    <tipus>Bronze</tipus>
+                                    <pais_guanyador>Corea del Sur</pais_guanyador>
+                                    <atletes>Kim So-Yeong, Kong Hee-Yong</atletes>
+                                    <data_guanya>02/08/2021</data_guanya>
+                                    <hora_competicio>13:00</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>                                
+                            </medalles>
+                        </categoria>
+                        <categoria>
+                            <nom>Dobles mixte</nom>
+                            <sexe>Mixte</sexe>
+                            <medalles>
+                                <medalla>
+                                    <tipus>Or</tipus>
+                                    <pais_guanyador>República Popular China</pais_guanyador>
+                                    <atletes>Wang Yilyu, Huang Dongping</atletes>
+                                    <data_guanya>31/07/2021</data_guanya>
+                                    <hora_competicio>18:00</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                    <medalla>
+                                    <tipus>Plata</tipus>
+                                    <pais_guanyador>República Popular China</pais_guanyador>
+                                    <atletes>Zheng Siwei, Huang Yaqiong</atletes>
+                                    <data_guanya>31/07/2021</data_guanya>
+                                    <hora_competicio>18:00</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                <medalla>
+                                    <tipus>Bronze</tipus>
+                                    <pais_guanyador>Japó</pais_guanyador>
+                                    <atletes>Yuta Watanabe, Arisa Higashino</atletes>
+                                    <data_guanya>31/07/2021</data_guanya>
+                                    <hora_competicio>15:30</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>                                
+                            </medalles>
+                        </categoria>                                                                                                                        
+                    </categories>
+                </esport>
+            </esports>
+        </seu_Competicio>
+        <seu_Competicio>
+            <nom>Súper Arena de Saitama</nom>
+            <ciutat>Saitama</ciutat>
+            <capacitat>37000</capacitat>
+            <esports>
+                <esport id="bàsquet"> <!--Atribut per diferenciar els diferents esports -->
+                    <any_inauguracio>1936</any_inauguracio>
+                    <data_inici>25/07/2021</data_inici>
+                    <data_final>07/08/2021</data_final>
+                    <categories>
+                        <categoria>
+                            <nom>Masculí</nom>
+                            <sexe>Masculí</sexe>
+                            <medalles>
+                                <medalla>
+                                    <tipus>Or</tipus>
+                                    <pais_guanyador>Estats Units</pais_guanyador>
+                                    <atletes>Jrue Holiday, Khris Middleton, Bam Adebayo, Damian Lillard, Jayson Tatum, Draymond Green, Kevin Durant, Devin Booker, Zach LaVine, Jerami Grant, JaVale McGee, Keldon Johnson. Seleccionador: Gregg Popovich</atletes>
+                                    <data_guanya>07/08/2021</data_guanya>
+                                    <hora_competicio>11:30</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                <medalla>
+                                    <tipus>Argent</tipus>
+                                    <pais_guanyador>França</pais_guanyador>
+                                    <atletes>Frank Ntilikina, Timothé Luwawu-Cabarrot, Thomas Heurtel, Nicolas Batum, Guerschon Yabusele, Evan Fournier, Nando de Colo, Vincent Poirier, Andrew Albicy, Rudy Gobert, Petr Cornelie, Moustapha Fall. Seleccionador: Vincent Collet</atletes>
+                                    <data_guanya>07/08/2021</data_guanya>
+                                    <hora_competicio>11:30</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                <medalla>
+                                    <tipus>Bronze</tipus>
+                                    <pais_guanyador>Australia</pais_guanyador>
+                                    <atletes>Chris Goulding, Patrick Mills, Josh Green, Joe Ingles, Matthew Dellavedova, Nathan Sobey, Matisse Thybulle, Dante Exum, Aron Baynes, Jock Landale, Duop Reath, Nick Kay. Seleccionador: Brian Goorjian</atletes>
+                                    <data_guanya>07/08/2021</data_guanya>
+                                    <hora_competicio>20:00</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                            </medalles>
+                        </categoria>
+                        <categoria>
+                            <nom>Femení</nom>
+                            <sexe>Dones</sexe>
+                            <medalles>
+                                <medalla>
+                                    <tipus>Or</tipus>
+                                    <pais_guanyador>Estats Units</pais_guanyador>
+                                    <atletes>Jewell Loyd, Skylar Diggins, Sue Bird, Ariel Atkins, Chelsea Gray, A'ja Wilson, Breanna Stewart, Napheesa Collier, Diana Taurasi, Sylvia Fowles, Tina Charles, Brittney Griner</atletes>
+                                    <data_guanya08/08/2021></data_guanya>
+                                    <hora_competicio>15:30</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                <medalla>
+                                    <tipus>Argent</tipus>
+                                    <pais_guanyador>Japó</pais_guanyador>
+                                    <atletes>Moeko Nagaoka, Maki Takada, Naho Miyoshi, Rui Machida, Nako Motohashi, Nanako Todo, Saki Hayashi, Evelyn Mawuli, Saori Miyazaki, Yuki Miyazawa, Himawari Akaho, Monica Okoye</atletes>
+                                    <data_guanya>08/08/2021</data_guanya>
+                                    <hora_competicio>15:30</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                <medalla>
+                                    <tipus>Bronze</tipus>
+                                    <pais_guanyador>França</pais_guanyador>
+                                    <atletes>Marine Fauthoux, Endene Miyem, Alexia Chartereau, Sandrine Gruda, Helena Ciak, Sarah Michel, Valeriane Ayayi, Iliana Rupert, Gabby Williams, Marine Johannes, Alix Duchet, Diandra Tchatchouang</atletes>
+                                    <data_guanya>07/08/2021</data_guanya>
+                                    <hora_competicio>16:00</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                            </medalles>
+                        </categoria>
+                        <categoria>
+                            <nom>Masculí 3x3</nom>
+                            <sexe>Homes</sexe>
+                            <medalles>
+                                <medalla>
+                                    <tipus>Or</tipus>
+                                    <pais_guanyador>Latvia</pais_guanyador>
+                                    <atletes>Nauris Miezis, Karlis Lasmanis, Edgars Krumins, Agnis Cavars</atletes>
+                                    <data_guanya>28/07/2021</data_guanya>
+                                    <hora_competicio>22:25</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                <medalla>
+                                    <tipus>Argent</tipus>
+                                    <pais_guanyador>ROC</pais_guanyador>
+                                    <atletes>Stanislav Sharov, Alexander Zuev, Ilia Karpenkov, Kirill Pisklov</atletes>
+                                    <data_guanya>28/07/2021</data_guanya>
+                                    <hora_competicio>22:25</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                <medalla>
+                                    <tipus>Bronze</tipus>
+                                    <pais_guanyador>Serbia</pais_guanyador>
+                                    <atletes>Aleksandar Ratkov, Dejan Majstorovic, Mihailo Vasic, Dušan Domovic Bulut</atletes>
+                                    <data_guanya>28/07/2021</data_guanya>
+                                    <hora_competicio>21:15</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                            </medalles>
+                        </categoria>
+                        <categoria>
+                            <nom>Femení 3x3</nom>
+                            <sexe>Dones</sexe>
+                            <medalles>
+                                <medalla>
+                                    <tipus>Or</tipus>
+                                    <pais_guanyador>Estats Units</pais_guanyador>
+                                    <atletes>Kelsey Plum, Jacquelyn Young, Stefanie Dolson, Allisha Gray</atletes>
+                                    <data_guanya>28/07/2021</data_guanya>
+                                    <hora_competicio>21:55</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                <medalla>
+                                    <tipus>Argent</tipus>
+                                    <pais_guanyador>ROC</pais_guanyador>
+                                    <atletes>Yulia Kozik, Anastasiia Logunova, Olga Frolkina, Evgeniia Frolkina</atletes>
+                                    <data_guanya>28/07/2021</data_guanya>
+                                    <hora_competicio>21:55</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                                <medalla>
+                                    <tipus>Bronze</tipus>
+                                    <pais_guanyador>República Popular China</pais_guanyador>
+                                    <atletes>Shuyu Yang, Zhiting Zhang, Jiyuan Wan, Lili Wang</atletes>
+                                    <data_guanya>28/07/2021</data_guanya>
+                                    <hora_competicio>20:45</hora_competicio>
+                                    <lloc_competicio>Pista</lloc_competicio>
+                                </medalla>
+                            </medalles>
+                        </categoria>  
+                    </categories>
+                </esport>
+            </esports>
+        </seu_Competicio>
+       

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="aeroport">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="vols">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="vol" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="diari" type="esdiari"></xs:element>
+                                        <xs:element name="origen" type="xs:string"></xs:element>
+                                        <xs:element name="desti" type="xs:string"></xs:element>
+                                        <xs:element name="horaSortida" type="xs:time"></xs:element>
+                                        <xs:element name="horaArribada" type="xs:time"></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="codi" type="xs:string" use="required"></xs:attribute>
+                                    <xs:attribute name="estat" type="tipusestat" default="E"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="data" type="xs:date"></xs:element>
+            </xs:all>
+            <xs:attribute name="nom" type="xs:string"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="tipusestat">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[CER]"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="esdiari">
+        <xs:attribute name="diari" type="xs:string" use="optional"></xs:attribute>
+    </xs:complexType>
+</xs:schema>

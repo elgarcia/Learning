@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tenda>
+    <CD estado="En oferta">
+        <titulo>Still got the blues</titulo>
+        <artista>Gary Moore</artista>
+        <pais>UK</pais>
+        <compañia_discografica>Virgin records</compañia_discografica>
+        <precio>10.20</precio>
+        <año_publicacion>1990</año_publicacion>
+    </CD>
+</tenda>

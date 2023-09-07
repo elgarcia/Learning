@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horari>
+    <dilluns> <!-- dia nom="dilluns"-->
+        <primeraHora hora="8:00-9:00">M01</primeraHora> <!-- classe horaInici="8:00" horaFinal="9:00" -->
+        <segonaHora hora="9:00-10:00">M03</segonaHora> <!-- classe horaInici="9:00" horaFinal="10:00" -->
+        <terceraHora hora="10:00-11:00">M03</terceraHora> <!-- classe horaInici="10:00" horaFinal="11:00" -->
+        <pati hora="11:00-11:30"></pati> <!-- classe horaInici="11:00" horaFinal=11:30" -->
+        <quartaHora hora="11:30-12:30">M04</quartaHora> <!-- classe horaInici="11:30" horaFinal="12:30" -->
+        <quintaHora hora="12:30-13:30">M02</quintaHora> <!-- classe horaInici="12:30" horaFinal="13:30" -->
+        <sextaHora hora="13:30-14:30">M02</sextaHora> <!-- classe horaInici="13:30" horaFinal="14:30" -->
+    </dilluns>
+    <dimarts>
+        <primeraHora hora="8:00-9:00">M04</primeraHora>
+        <segonaHora hora="9:00-10:00">M04</segonaHora>
+        <terceraHora hora="10:00-11:00">M03</terceraHora>
+        <pati hora="11:00-11:30"></pati>
+        <quartaHora hora="11:30-12:30">M03</quartaHora>
+    </dimarts>
+    <dimecres>
+        <primeraHora hora="8:00-9:00">M02</primeraHora>
+        <segonaHora hora="9:00-10:00">M02</segonaHora>
+        <terceraHora hora="10:00-11:00">M01</terceraHora>
+        <pati hora="11:00-11:30"></pati>
+        <quartaHora hora="11:30-12:30">M01</quartaHora>
+        <quintaHora hora="12:30-13:30">M04</quintaHora>
+    </dimecres>
+    <dijous>
+        <primeraHora hora="8:00-9:00">M02</primeraHora>
+        <segonaHora hora="9:00-10:00">M01</segonaHora>
+        <terceraHora hora="10:00-11:00">TUT</terceraHora>
+        <pati hora="11:00-11:30"></pati>
+        <quartaHora hora="11:30-12:30">M03</quartaHora>
+        <quintaHora hora="12:30-13:30">M03</quintaHora>
+    </dijous>
+    <divendres>
+        <primeraHora hora="8:00-9:00">EiE</primeraHora>
+        <segonaHora hora="9:00-10:00">EiE</segonaHora>
+        <terceraHora hora="10:00-11:00">M01</terceraHora>
+        <pati hora="11:00-11:30"></pati>
+        <quartaHora hora="11:30-12:30">FOL</quartaHora>
+        <quintaHora hora="12:30-13:30">FOL</quintaHora>
+    </divendres>
+</horari>

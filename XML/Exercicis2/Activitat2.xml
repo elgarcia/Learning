@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<informacio_nutricional>
+    <verdura>
+        <nom>Acelga cruda</nom>
+        <medida_casera>1 taza</medida_casera>
+        <carbohidratos unitat="grams">2,6</carbohidratos>
+        <calorias unitat="kcal">15</calorias>
+        <IG>Bajo</IG>
+    </verdura>
+    <verdura>
+        <nom>Acelga cocida</nom>
+        <medida_casera>1/2 taza</medida_casera>
+        <carbohidratos unitat="grams">4</carbohidratos>
+        <calorias unitat="kcal">30</calorias>
+        <IG>Bajo</IG>
+    </verdura>
+</informacio_nutricional>
