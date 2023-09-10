@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DBZEL\\.nuget\\packages\\": {}
+    "/Users/elias/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DBZEL\\Desktop\\Casa\\Elias\\Workspace\\Learning\\C#\\CsharpProjects\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "/Users/elias/Desktop/Elias/Learning/C#/CsharpProjects/TestProject/TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "C:\\Users\\DBZEL\\Desktop\\Casa\\Elias\\Workspace\\Learning\\C#\\CsharpProjects\\TestProject\\TestProject.csproj",
-      "packagesPath": "C:\\Users\\DBZEL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DBZEL\\Desktop\\Casa\\Elias\\Workspace\\Learning\\C#\\CsharpProjects\\TestProject\\obj\\",
+      "projectPath": "/Users/elias/Desktop/Elias/Learning/C#/CsharpProjects/TestProject/TestProject.csproj",
+      "packagesPath": "/Users/elias/.nuget/packages/",
+      "outputPath": "/Users/elias/Desktop/Elias/Learning/C#/CsharpProjects/TestProject/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DBZEL\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/elias/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.413/RuntimeIdentifierGraph.json"
       }
     }
   }
