@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/elias/Desktop/Elias/Learning/C#/CsharpProjects/TestProject/TestProject.csproj": {}
+    "C:\\Users\\DBZEL\\Desktop\\Casa\\Elias\\Workspace\\Learning\\C#\\CsharpProjects\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "/Users/elias/Desktop/Elias/Learning/C#/CsharpProjects/TestProject/TestProject.csproj": {
+    "C:\\Users\\DBZEL\\Desktop\\Casa\\Elias\\Workspace\\Learning\\C#\\CsharpProjects\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elias/Desktop/Elias/Learning/C#/CsharpProjects/TestProject/TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\DBZEL\\Desktop\\Casa\\Elias\\Workspace\\Learning\\C#\\CsharpProjects\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "/Users/elias/Desktop/Elias/Learning/C#/CsharpProjects/TestProject/TestProject.csproj",
-        "packagesPath": "/Users/elias/.nuget/packages/",
-        "outputPath": "/Users/elias/Desktop/Elias/Learning/C#/CsharpProjects/TestProject/obj/",
+        "projectPath": "C:\\Users\\DBZEL\\Desktop\\Casa\\Elias\\Workspace\\Learning\\C#\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "packagesPath": "C:\\Users\\DBZEL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DBZEL\\Desktop\\Casa\\Elias\\Workspace\\Learning\\C#\\CsharpProjects\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/elias/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\DBZEL\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.413/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
         }
       }
     }

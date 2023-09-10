@@ -1,24 +1,9 @@
-﻿Random random = new Random();
+﻿string[] fraudulentOrders = { "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"};
 
-int daysUntilExpiration = random.Next(12);
-int discountPercentage = 0;
-
-//Your code goes here
-if (daysUntilExpiration == 0)
+foreach (string order in fraudulentOrders)
 {
-    Console.WriteLine("Your subscription has expired.");
-}
-else if (daysUntilExpiration == 1)
-{
-    Console.WriteLine("Your subscription expires within a day!");
-    Console.WriteLine($"Renew now and save 2{discountPercentage}%");
-}
-else if (daysUntilExpiration <= 5)
-{
-    Console.WriteLine($"Your subscription expires in {daysUntilExpiration} days.");
-    Console.WriteLine($"Renew now and save 1{discountPercentage}%");
-}
-else if(daysUntilExpiration <= 10)
-{
-   Console.WriteLine("Your subscription will expire soon. Renew now!");
+    if (order.StartsWith("B"))
+    {
+        Console.WriteLine($"The order {order} starts with 'B'!");
+    }
 }
