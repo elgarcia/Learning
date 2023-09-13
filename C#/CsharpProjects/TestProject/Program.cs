@@ -1,9 +1,30 @@
-﻿string[] fraudulentOrders = { "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179"};
+﻿/*
+	El proposito de este programa es convertir un string
+	en una cadena de caracteres, para asi invertir el orden
+	de este.
+	Una vez hecho esto buscamos cuantas veces sale la letra
+	'o' en el string y devolvemos el nuemero de veces que
+	aparece.
+	Antes de printar el resultado devolvemos el array de caracteres
+	a string en un nuevo string de nombre new_message.
+*/
 
-foreach (string order in fraudulentOrders)
-{
-    if (order.StartsWith("B"))
-    {
-        Console.WriteLine($"The order {order} starts with 'B'!");
-    }
+string originalMessage = "The quick brown fox jumps over the lazy dog.";
+
+char[] charMessage = originalMessage.ToCharArray();
+Array.Reverse(charMessage);
+
+int letterCount = 0;
+
+foreach (char letter in charMessage) 
+{ 
+	if (letter == 'o') 
+	{ 
+		letterCount++; 
+	} 
 }
+
+string new_message = new String(charMessage);
+
+Console.WriteLine(new_message);
+Console.WriteLine($"'o' appears {letterCount} times.");
