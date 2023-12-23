@@ -2,5 +2,6 @@
 
 ---
 
-This is where I put projects about all the language that im studying and learning.  
-Enjoy them and respect it as I do while im learning them.
+This is a repository where I have all the projects I did while i was studying different type of languages, courses, etc...
+
+I hope you enjoy my first steps! :clap:
